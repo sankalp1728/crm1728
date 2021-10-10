@@ -1,0 +1,7 @@
+userRole : {
+    Name : String, // in all cases
+    _id : String // not special
+},
+access : {
+                // only if special
+}

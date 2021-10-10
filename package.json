@@ -1,0 +1,33 @@
+{
+  "name": "next",
+  "version": "1.0.0",
+  "description": "Applicant Tracking System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Shekhar",
+  "license": "ISC",
+  "dependencies": {
+    "@pusher/push-notifications-server": "^1.2.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "firebase-admin": "^9.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.1.6",
+    "update": "^0.4.2"
+  }
+}
